@@ -1,4 +1,8 @@
 package com.eshaq.kharidino
 
-class Kharidino {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class Kharidino: Application() {
 }
